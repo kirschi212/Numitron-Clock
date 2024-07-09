@@ -2,22 +2,22 @@
 
 This is a small documentation if you want to build a Numitron Clock by yourself. This project is build around IV-9 tubes, an ESP8266 and the MAX7315 IO-Expander.
 
-##Images
+## Images
 
 ![alt text](https://i.imgur.com/WxeO8AT.jpeg)
 
 ![alt text](https://i.imgur.com/QRNSPmU.jpeg)
 
-##Functioning
+## Functioning
 
 The ESP8266 is connected to the WiFi and retrieves the current time from a time server. The MAX7315 IO expanders are then controlled by the ESP8266 via I2C and switch the corresponding segments of the Numitron segments.
 Optionally, a switch can also be installed with which the tubes can be switched off.
 
 ------
 
-##Parts list
+## Parts list
 
-###Main Components:
+### Main Components:
                     
 Component  | Quantity | Description
 ------------- | ------------- 
@@ -26,7 +26,7 @@ IV-9 numitron tubes | 4 | retro 7 segment displays
 MAX7315AEE+ | 4 | 8-bit IO-Expanders 
 Custom PCB | 1 | Eagle.CAD files are uploaded in this repository
 
-###Other Components:
+### Other Components:
 
 | Component  | Quantity | Description
 | ------------- | ------------- | ------------- | ------------- |
@@ -35,7 +35,7 @@ Custom PCB | 1 | Eagle.CAD files are uploaded in this repository
 | Ceramic capacitors  0603 0.047µF  | 4  | decoupling capacitors for MAX7315
 | USB-C panel jack  | 1  | used for power supply via USB-C
 
-###Optional Components:
+### Optional Components:
 These components can optionally be installed.
 
 | Component  | Quantity | Description
@@ -44,10 +44,10 @@ These components can optionally be installed.
 | Electrolytic capacitor 100µF   | 1  | capacitor for voltage stabilization
 | Mechanical switch  | 1  | used for turning all segments on or off
 
-#####Notice: Either the electrolytic capacitor OR switch can be installed with this version of the PCB-design.
+##### Notice: Either the electrolytic capacitor OR switch can be installed with this version of the PCB-design.
 
 ------
-##Code
+## Code
 ![alt text](https://i.imgur.com/cIVGxHw.png)
 
 
