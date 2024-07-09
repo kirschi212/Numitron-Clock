@@ -48,6 +48,14 @@ These components can optionally be installed.
 
 ##### Notice: Either the electrolytic capacitor OR switch can be installed with this version of the PCB-design.
 
+## PCB: schematic and board
+
+#### Notice: This current version of the PCB shows some minor mistakes, e.g. the electrolytic capacitor can only be placed without installing a switch. Nevertheless the board is fully functional!
+
+![alt text](https://i.imgur.com/8OrW7NU.jpeg)
+
+![alt text](https://i.imgur.com/ZAZqbi8.jpeg)
+
 ------
 ## Code
 ![alt text](https://i.imgur.com/cIVGxHw.png)
