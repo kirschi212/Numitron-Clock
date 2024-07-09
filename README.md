@@ -50,11 +50,15 @@ These components can optionally be installed.
 
 ## PCB: schematic and board
 
-#### Notice: This current version of the PCB shows some minor mistakes, e.g. the electrolytic capacitor can only be placed without installing a switch. Nevertheless the board is fully functional!
+#### Notice: This current version of the PCB shows some minor mistakes, e.g. the electrolytic capacitor can only be placed without installing a switch. Nevertheless the board is fully functional! If you are interested, I could design a second version of this board and I will try to improve it!
 
 ![alt text](https://i.imgur.com/8OrW7NU.jpeg)
 
 ![alt text](https://i.imgur.com/ZAZqbi8.jpeg)
+
+## Casing
+
+In the repository you can find the Fusion360 file to the casing that I designed myself. It features mounting holes for the PCB, cutouts for the USB-C panel jack and the switch. You can print it with a common 3D-printer using PLA or PETG.
 
 ------
 ## Code
