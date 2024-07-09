@@ -18,7 +18,8 @@ Optionally, a switch can also be installed with which the tubes can be switched 
 ## Parts list
 
 ### Main Components:
-                    
+
+                   
 Component  | Quantity | Description
 ------------- | ------------- 
 ESP8266 NodeMCU  | 1 | heart of the circuit
@@ -28,13 +29,14 @@ Custom PCB | 1 | Eagle.CAD files are uploaded in this repository
 
 ### Other Components:
 
+                    
 | Component  | Quantity | Description
 | ------------- | ------------- | ------------- | ------------- |
 | Resistor 0603 47Ω  | 32  | current limiting resistors for numitron segments
 | Resistor 0603 4.7kΩ  | 2  | pull-up resistors for I2C-Bus
 | Ceramic capacitors  0603 0.047µF  | 4  | decoupling capacitors for MAX7315
 | USB-C panel jack  | 1  | used for power supply via USB-C
-
+                    
 ### Optional Components:
 These components can optionally be installed.
 
