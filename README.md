@@ -20,31 +20,31 @@ Optionally, a switch can also be installed with which the tubes can be switched 
 ### Main Components:
 
                    
-Component  | Quantity | Description
-------------- | ------------- 
-ESP8266 NodeMCU  | 1 | heart of the circuit
-IV-9 numitron tubes | 4 | retro 7 segment displays 
-MAX7315AEE+ | 4 | 8-bit IO-Expanders 
-Custom PCB | 1 | Eagle.CAD files are uploaded in this repository
+Component  | Quantity | Description |
+------------- | ------------- | ------------- |
+ESP8266 NodeMCU  | 1 | heart of the circuit |
+IV-9 numitron tubes | 4 | retro 7 segment displays |
+MAX7315AEE+ | 4 | 8-bit IO-Expanders |
+Custom PCB | 1 | Eagle.CAD files are uploaded in this repository |
 
 ### Other Components:
 
                     
-| Component  | Quantity | Description
-| ------------- | ------------- | ------------- | ------------- |
-| Resistor 0603 47Ω  | 32  | current limiting resistors for numitron segments
-| Resistor 0603 4.7kΩ  | 2  | pull-up resistors for I2C-Bus
-| Ceramic capacitors  0603 0.047µF  | 4  | decoupling capacitors for MAX7315
-| USB-C panel jack  | 1  | used for power supply via USB-C
+| Component  | Quantity | Description |
+| ------------- | ------------- | ------------- | 
+| Resistor 0603 47Ω  | 32  | current limiting resistors for numitron segments |
+| Resistor 0603 4.7kΩ  | 2  | pull-up resistors for I2C-Bus |
+| Ceramic capacitors  0603 0.047µF  | 4  | decoupling capacitors for MAX7315 |
+| USB-C panel jack  | 1  | used for power supply via USB-C |
                     
 ### Optional Components:
 These components can optionally be installed.
 
-| Component  | Quantity | Description
-| ------------- | ------------- |
-| Resistor 0603 10kΩ  | 1 | pull-up resistor for switch
-| Electrolytic capacitor 100µF   | 1  | capacitor for voltage stabilization
-| Mechanical switch  | 1  | used for turning all segments on or off
+| Component  | Quantity | Description |
+| ------------- | ------------- | ------------- |
+| Resistor 0603 10kΩ  | 1 | pull-up resistor for switch |
+| Electrolytic capacitor 100µF   | 1  | capacitor for voltage stabilization |
+| Mechanical switch  | 1  | used for turning all segments on or off |
 
 ##### Notice: Either the electrolytic capacitor OR switch can be installed with this version of the PCB-design.
 
