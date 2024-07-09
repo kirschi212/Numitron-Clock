@@ -62,6 +62,9 @@ In the repository you can find the Fusion360 file to the casing that I designed 
 
 ------
 ## Code
+
+The code was designed to be uploaded to the ESP8266 via the Arduino IDE and a USB-connection. 
+
 ![alt text](https://i.imgur.com/cIVGxHw.png)
 
 
